@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css"
+    <title>About the Site </title>
+    <header>
+        <h1>Paul & Rachel's Campsite</h1>
+    </header>
+    <nav>
+        <div class="navbar">
+            <a href="index.html">Home</a>
+            <a href="#">Things to do</a>
+            <a href="#">Book</a>
+        </div>
+    </nav>
+    <body
+        <main>
+            <section>
+                <h2>Meet the owners</h2>
+                <img src="assets/Rachel and Paul.jfif" alt="Woman in front of a man standing in a green glen" width="200px" height="100px">
+                
+                <h2>Find us</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d39536.26872413544!2d0.6934173703078673!3d51.73272815570569!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8e1b76d06aa19%3A0xcaab6487c289d1c!2sHeybridge!5e0!3m2!1sen!2suk!4v1716375451647!5m2!1sen!2suk" width="400" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <section>
+            <h2>Information</h2>
+            <button class="accordion"><h3>Keeping clean</h3></button>
+            <div class="panel">
+             <p>Toilet block with hot showers <br> Washing up facilities <br> Chemical disposal point
+             </p>
+            </div>
+
+            <button class="accordion"><h3>Pets</h3></button>
+            <div class="panel">
+                <p>Well behaved dogs allowed<br> Contact us if you are looking to bring more than two dogs</p>
+            </div>
+
+            <button class="accordion"><h3>Section 3</h3></button>
+            <div class="panel">
+             <p>Lorem ipsum...</p>
+            </div>
+            <script>
+                var acc = document.getElementsByClassName("accordion");
+                var i;
+                
+                for (i = 0; i < acc.length; i++) {
+                  acc[i].addEventListener("click", function() {
+                    this.classList.toggle("active");
+                    var panel = this.nextElementSibling;
+                    if (panel.style.display === "block") {
+                      panel.style.display = "none";
+                    } else {
+                      panel.style.display = "block";
+                    }
+                  });
+                }
+                </script>
+            </section>
+        </main>
+        <footer>
+            <h6>Privacy statement</h6>
+        </footer>
+    </body>
+</html>
